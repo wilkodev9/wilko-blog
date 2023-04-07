@@ -16,15 +16,20 @@ export default function Home() {
       </Head>
       <main>
         <Navbar></Navbar>
-        <div>
-          <h2>wilko blogging website</h2>
-            <BsPencilFill size={"10rem"}></BsPencilFill>
-          <div>
-             this is a general purpose blogging website
+        <div className={styles.bannerShadow}>
+          <div className={styles.banner}>
+            <h2 className={styles.bannerTittle}>wilko <br>
+            </br>blogging
+            <br></br>
+            website</h2>
+              <BsPencilFill size={"40rem"} className={styles.pencil}></BsPencilFill>
+            <div className={styles.bannerdescription}>
+              this blog was made by wilko 
+            </div>
           </div>
         </div>
-        <div>
-          <p>recommened blogs</p>
+        <div className={styles.recommened}>
+          <p>recommened blogs:</p>
         </div>
         <div className={styles.cards}>
           <BlogCards/>
