@@ -1,6 +1,9 @@
-import Navbar from '@/components/navbar'
-import Head from 'next/head'
-import {BsPencilFill} from "react-icons/bs"
+import BlogCards from '@/components/blogCards';
+import Navbar from '@/components/navbar';
+import Head from 'next/head';
+import {BsPencilFill} from "react-icons/bs";
+import styles from "../styles/home.module.css";
+
 export default function Home() {  
 
   return (
@@ -23,25 +26,13 @@ export default function Home() {
         <div>
           <p>recommened blogs</p>
         </div>
-        <div>
-          <div>
-            blog name and description
-          </div>
-          <div>
-            blog name and description
-          </div>
-          <div>
-            blog name and description
-          </div>
-          <div>
-            blog name and description
-          </div>
-          <div>
-            blog name and description
-          </div>
-          <div>
-            blog name and description
-          </div>
+        <div className={styles.cards}>
+          <BlogCards/>
+          <BlogCards/>
+          <BlogCards/>
+          <BlogCards/>
+          <BlogCards/>
+          <BlogCards/>
         </div>
       </main>
     </>
