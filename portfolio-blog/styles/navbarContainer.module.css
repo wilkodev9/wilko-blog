@@ -1,0 +1,36 @@
+.navbarContainer {
+    display: flex;
+    justify-content: space-between;
+    background-color: blue;
+    padding: 1rem;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: -0.1rem 0.1rem 0.5rem rgba(0, 0, 0, 0.5);
+}
+
+.navItems {
+    position: absolute;
+    right: -15rem;
+}
+
+.navItems1 {
+    margin: -1rem 0;
+    background-color: red;
+    position:absolute;
+    z-index: 1 !important;
+    right: 15rem;
+    background-color:antiquewhite;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 0rem 3rem;
+    list-style: none;
+    box-shadow: -0.1rem 0.1rem 0.5rem rgba(0, 0, 0, 0.5);
+}
+
+.navItems1 li {
+    padding: 0.3rem;
+}
+.navItems1 button {
+    margin: 1rem 0 0.3rem 0;
+}
+
