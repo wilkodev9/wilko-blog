@@ -1,4 +1,10 @@
+import Navbar from "@/components/navbar";
+
 export default function Summery() {
-    return <div>About</div>
+    return (
+    <div>
+      <Navbar></Navbar>
+    </div>
+    )
   }
   

@@ -1,7 +1,8 @@
 import Navbar from '@/components/navbar'
 import Head from 'next/head'
+import {BsPencilFill} from "react-icons/bs"
+export default function Home() {  
 
-export default function Home() {
   return (
     <>
       <Head>
@@ -12,6 +13,36 @@ export default function Home() {
       </Head>
       <main>
         <Navbar></Navbar>
+        <div>
+          <h2>wilko blogging website</h2>
+            <BsPencilFill size={"10rem"}></BsPencilFill>
+          <div>
+             this is a general purpose blogging website
+          </div>
+        </div>
+        <div>
+          <p>recommened blogs</p>
+        </div>
+        <div>
+          <div>
+            blog name and description
+          </div>
+          <div>
+            blog name and description
+          </div>
+          <div>
+            blog name and description
+          </div>
+          <div>
+            blog name and description
+          </div>
+          <div>
+            blog name and description
+          </div>
+          <div>
+            blog name and description
+          </div>
+        </div>
       </main>
     </>
   )
